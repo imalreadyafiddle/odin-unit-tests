@@ -1,6 +1,3 @@
-// accepts a string and a shift factor
-// returns a new string with each letter shifted by the shift factor
-
 function caesarCipher(string, shift) {
   let newString = "";
   for (let i = 0; i < string.length; i++) {
